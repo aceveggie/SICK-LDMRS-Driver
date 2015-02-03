@@ -1,0 +1,26 @@
+<package>
+  <description brief="Driver for Sick LD-MRS">
+
+     Driver node for Sick LD-MRS
+
+  </description>
+  <author>Brett Grandbois, Fred Pauling</author>
+  <license>BSD</license>
+  <review status="experimental" notes=""/>
+  <url>http://www.ros.org/wiki/sick_ldmrs</url>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="roslib"/>
+  <depend package="rostest"/>
+  <depend package="sensor_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="dynamic_reconfigure" />
+  <depend package="driver_base" />
+  <rosdep name="python-numpy" />
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
+</package>
+
+
